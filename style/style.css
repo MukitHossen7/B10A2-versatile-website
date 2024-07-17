@@ -1,6 +1,7 @@
 
 /* common css start */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -16,6 +17,13 @@ body{
     background: rgb(230, 83, 60);
     border-radius: 46px;
     padding: 8px 20px;
+}
+#banner-h2{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+.header-section{
+    background-image: linear-gradient(180.00deg, rgba(64, 69, 65, 0.5),rgba(90, 88, 88, 0) 100%);
 }
 /* common css end */
 
@@ -53,7 +61,117 @@ body{
     display: none;
 }
 /* nav manu css */
+/* banner-container css */
+.banner-container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 32px;
+   
+}
+.banner-area{
+    display: flex;
+    gap: 167px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.banner-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.banner-btn-join{
+    color: rgb(255, 255, 255);
+   font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+   background: rgb(230, 83, 60);
+   padding: 16px 40px;
+   border: none;
+   margin-right: 14px;
+}
+.banner-btn-down{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+     font-weight: 600;
+     border-radius: 42px;
+     padding: 16px 40px;
+     border: 1px solid rgb(255, 255, 255);
+     background: rgb(0, 0, 0);
+}
+.banner-img-position{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(48, 48, 48, 0.54);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+padding: 20px 23px;
+width: 50%;
+position: absolute;
+bottom: 23%;
+left: -27%;
+}
+.banner-img-position h5{
+ color: rgb(250, 250, 249);
+font-size: 1.5rem;
+font-weight: 900;
+margin-bottom: 8px;
 
+}
+.banner-img-position p{
+color: rgba(239, 237, 232, 0.65);
+font-size: 16px;
+font-weight: 400;
+}
+.banner-img-position span{
+background: rgb(230, 83, 60);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
+}
+.banner-img-position2{
+    color: white;
+    background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    padding: 18px 23px;
+    width: 45%;
+    position: absolute;
+    bottom: 64%;
+    right: -14%;
+}
+.banner-img-position2 h4{
+    color: rgb(255, 255, 255);
+font-size: 2.5rem;
+font-weight: 900;
+margin-bottom: 5px;
+}
+.banner-img-position2 p{
+    color: rgba(255, 255, 255, 0.65);
+font-size: 0.8rem;
+font-weight: 400;
+
+}
+/* banner-container css */
 /* Small device Responsive */
 @media screen and (max-width:576px) {
     /* nav manu  */
@@ -67,5 +185,5 @@ body{
     .manu-container{
         width: 85%;
     }
-    
+
 }
