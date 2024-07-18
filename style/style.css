@@ -83,6 +83,9 @@ body{
     width: 100%;
     height: 100%;
 }
+.banner-text{
+    max-width:520px;
+}
 .banner-text h2{
     color: rgb(255, 255, 255);
     font-size: 4.8rem;
@@ -178,6 +181,71 @@ font-weight: 400;
 
 }
 /* banner-container css */
+/* habits-container css */
+.habits-container{
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    height: 500px;
+}
+.habits-text{
+    max-width: 670px;
+    margin: 0 auto;
+}
+.habits-text h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+text-align: center;
+margin-bottom: 14px;
+}
+.habits-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.85rem;
+font-weight: 400;
+text-align: center;
+}
+.habits-img{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 40px;
+    
+}
+.habits-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:58px;
+}
+.habits-card img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.habits-card h5{
+    color: rgb(255, 255, 255);
+font-size: 1.1rem;
+font-weight: 600;
+margin-bottom: 6px;
+}
+.habits-card p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 0.8rem;
+font-weight: 400;
+}
+/* habits-container css */
+
+
+
+
+
+
+
+
 /* Small device Responsive */
 @media screen and (max-width:576px) {
     /* nav manu  */
@@ -207,7 +275,7 @@ font-weight: 400;
         right: -2%;
      }
      .banner-container{
-        width: 85%;
+       width:85%;
      }
      .banner-btn-container{
         display: flex;
@@ -220,5 +288,31 @@ font-weight: 400;
     .banner-btn-down{
         padding: 9px 14px;
     }
- 
+    .banner-text h2{
+        font-size: 3rem;
+    }
+    /*
+     .banner-text{
+         max-width: 520px;
+        width: 100%;
+    } 
+        */
+    /* habits css */
+    .habits-container{
+        margin-top: 0;
+        width: 100%;
+    }
+    .habits-text{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .habits-text h2{
+        font-size: 2rem;
+    }
+    .habits-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+     /* .habits-container{
+        width: 85%;
+    }  */
 }
