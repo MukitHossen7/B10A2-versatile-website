@@ -289,7 +289,143 @@ padding: 16px 40px;
     border-radius: 18px;
 } 
 /* run-container css */
+/* BMI calculator css */
+.claculator-text{
+    max-width: 670px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+}
+.claculator-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;;
+   margin-bottom: 14px;
+   text-align: left;
+}
+.claculator-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+/* BMI calculator css */
+/* chart-calculate-container CSS */
 
+.chart-calculate-container{
+   background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-bottom: 88px;
+    padding-top: 49px;
+    padding-bottom: 52px;
+}
+
+.chart-calculate-area{
+    max-width: 310px;
+    
+}
+.chart-calculate-area h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 52px;
+}
+.chart-calculate-area table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 16px 20px ;
+    text-align: left;
+} 
+.chart-calculate-area thead, th{
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+line-height: 120%;
+
+}
+.chart-calculate-area tbody td{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+font-weight: 400;
+line-height: 120%;
+}
+.calculate-bmi-area{
+    max-width: 577px;
+}
+.calculate-bmi-area h2{
+    color: rgb(255, 255, 255);
+font-size: 1.75rem;
+font-weight: 900;
+text-align: left;
+margin-bottom: 14px;
+}
+.calculate-bmi-area p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 34px;
+}
+.input1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.input1 input{
+    padding: 12px 40px 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+.input2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.input2 input, .input2 select{
+    padding: 12px 40px 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+.input3 select{
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+.calculate-bmi-area .calculate-btn{
+    color: rgb(255, 255, 255);
+font-size: 1.125rem;
+font-weight: 600;
+text-align: left;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+padding: 16px 40px;
+margin-top: 35px;
+}
+/* chart-calculate-container CSS */
 
 
 
@@ -351,6 +487,7 @@ padding: 16px 40px;
     .habits-container{
         margin-top: 0;
         width: 100%;
+        margin-bottom: 70px;
     }
     .habits-text{
         max-width: 100%;
@@ -382,7 +519,20 @@ padding: 16px 40px;
         width: 100%;
         text-align: center;
     }
-
+   .claculator-text{
+    width: 100%;
+    padding: 0 5px;
+   }
+   /* chart-calculate-css */
+   .chart-calculate-container{
+    flex-direction: column;
+   }
+   .calculate-bmi-area{
+    margin-top: 25px;
+   }
+   .chart-calculate-area, .calculate-bmi-area{
+    padding: 0 10px;
+   }
 }
 
 /* Run Section git push */
