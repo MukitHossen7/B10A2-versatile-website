@@ -185,9 +185,7 @@ font-weight: 400;
 .habits-container{
     width: 75%;
     margin: 0 auto;
-    color: rgb(255, 255, 255);
     margin-top: 100px;
-    height: 500px;
 }
 .habits-text{
     max-width: 670px;
@@ -239,6 +237,58 @@ font-weight: 400;
 }
 /* habits-container css */
 
+/* run-container css */
+.run-container{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 32px 29px 54px ;
+    margin-bottom: 100px;
+}
+.run-area{
+    display: flex;
+    gap: 165px;
+    justify-content: center;
+    align-items: center;
+}
+.run-text-container h2{
+color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+text-align: left;
+margin-bottom: 14px;
+}
+.run-text-container p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+font-weight: 400;
+text-align: left;
+margin-bottom: 34px;
+line-height: 24px;
+}
+.run-text-container button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.125rem;
+font-weight: 600;
+text-align: left;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+padding: 16px 40px;
+}
+ .run-img-container{
+   width: 100%;
+   height: 100%;
+  
+}
+.run-img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+} 
+/* run-container css */
 
 
 
@@ -311,8 +361,28 @@ font-weight: 400;
     }
     .habits-img{
         grid-template-columns: repeat(1,1fr);
+        padding: 0px 30px;
     }
      /* .habits-container{
         width: 85%;
-    }  */
+    }*/
+     
+    /* .run-container */
+    .run-area{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .run-container{
+        width: 85%;
+      padding: 0px;
+      margin-top: 70px;
+    }
+    .run-button button{
+        width: 100%;
+        text-align: center;
+    }
+
 }
+
+/* Run Section git push */
