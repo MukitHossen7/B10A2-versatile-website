@@ -506,7 +506,7 @@ line-height: 24px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .fitness-box{
     border: 2px solid blue;
@@ -529,16 +529,40 @@ text-align: left;
 .started-box-one{
     border: 2px solid yellow;
 }
+.started-box-one h2, .started-box-two h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2rem;
+font-weight: 700;
+text-align: left;
+margin-bottom: 40px;
+}
+.started-box-one li a, .started-box-two li a{
+color: rgba(255, 255, 255, 0.5);
+font-size: 1.44rem;
+font-weight: 400;
+line-height: 120%;
+text-align: left;
+
+}
+.started-box-one li, .started-box-two li{
+    margin-bottom: 20px;
+}
 .started-box-two{
     border: 2px solid fuchsia;
 }
+
 .footer-reserved{
-    border-top: 2px solid white;
+    /* border-top: 2px solid white; */
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
     text-align: center;
 }
 .footer-reserved p{
-    margin-top: 35px;
+    margin-top: 36px;
     margin-bottom: 35px;
+    color: rgba(255, 255, 255, 0.5);
+   font-size: 20px;
+   font-weight: 400;
 }
 
 /* footer container css */
