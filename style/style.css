@@ -427,7 +427,90 @@ margin-top: 35px;
 }
 /* chart-calculate-container CSS */
 
+/* our-team-container css */
+.our-team-container{
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid red;
+    color: white;
+}
+.our-team-text h2{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+text-align: center;
+margin-bottom: 14px;
+}
+.our-team-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+.our-team-img .card-items{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.our-team-img .card-items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.our-team-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin-top: 100px;
+}
+.card-text{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
 
+}
+/* our-team-container css */
+
+/* footer container css */
+.footer-area{
+    width: 75%;
+    border: 2px solid green;
+    margin: 0 auto;
+    margin-top: 80px;
+    color: white;
+}
+.started-box-one li, .started-box-two li{
+    list-style-type: none;
+}
+.started-box-one li a,  .started-box-two li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    margin-bottom: 50px;
+}
+.fitness-box{
+    border: 2px solid blue;
+}
+.started-box-one{
+    border: 2px solid yellow;
+}
+.started-box-two{
+    border: 2px solid fuchsia;
+}
+.footer-reserved{
+    border-top: 2px solid white;
+    text-align: center;
+}
+.footer-reserved p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+/* footer container css */
 
 
 
@@ -532,6 +615,12 @@ margin-top: 35px;
    }
    .chart-calculate-area, .calculate-bmi-area{
     padding: 0 10px;
+   }
+   .our-team-img{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .footer-text{
+    grid-template-columns: repeat(1,1fr);
    }
 }
 
