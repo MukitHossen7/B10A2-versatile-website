@@ -662,8 +662,23 @@ text-align: left;
    .our-team-img{
     grid-template-columns: repeat(1,1fr);
    }
+   .our-team-container, .footer-area{
+    width: 85%;
+   }
    .footer-text{
     grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    margin-bottom: 45px;
+   }
+   .our-team-text{
+    width: 100%;
+   }
+   .our-team-img{
+    width: 100%;
+    height: 100%;
+   }
+   .footer-reserved{
+    text-align: left;
    }
 }
 
