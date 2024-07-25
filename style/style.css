@@ -488,10 +488,16 @@ line-height: 24px;
 /* our-team-container css */
 
 /* footer container css */
+.footer-container{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding-top: 65px;
+    padding-bottom: 35px;
+    margin-top: 88px;
+}
 .footer-area{
     width: 75%;
     margin: 0 auto;
-    margin-top: 88px;
+   
 }
 .started-box-one li, .started-box-two li{
     list-style-type: none;
