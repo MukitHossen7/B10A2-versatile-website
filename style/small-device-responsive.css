@@ -110,8 +110,8 @@
     gap: 20px;
     margin-bottom: 45px;
    }
-   .our-team-text{
-    width: 100%;
+   .our-team-text h2{
+    font-size: 2.5rem;
    }
    .our-team-img{
     width: 100%;
