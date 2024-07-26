@@ -120,4 +120,17 @@
    .footer-reserved{
     text-align: left;
    }
+   .premier-area{
+    flex-direction: column;
+   }
+   .premier-text, .premier-video, .premier-contact-text, .premier-contact-icons{
+    width: 100%;
+   }
+   .premier-video iframe{
+    width: 100%;
+    height: 100%;
+   }
+   .premier-contact-area{
+    flex-direction: column;
+   }
 }
