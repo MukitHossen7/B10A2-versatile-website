@@ -19,11 +19,16 @@ body{
     padding: 8px 20px;
 }
 #banner-h2{
-    font-family: "Dancing Script", cursive;
+    font-family: Miama;
     font-weight: 400;
+   font-size: 6rem;
 }
 .header-section{
     background-image: linear-gradient(180.00deg, rgba(64, 69, 65, 0.5),rgba(90, 88, 88, 0) 100%);
+}
+@font-face {
+    font-family: "Miama";
+    src: url("../font/miama/Miama.ttf");
 }
 /* common css end */
 
@@ -544,8 +549,8 @@ line-height: 24px;
     height: 100%;
 }
 .premier-video iframe{
-   width: 600px;
-   height: 500px;
+    width: 600px;
+    height: 500px;
 }
 .premier-contact-text h2{
     /* border: 2px solid green; */
