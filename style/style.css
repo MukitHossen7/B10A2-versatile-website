@@ -72,7 +72,7 @@ body{
 /* nav manu css */
 /* banner-container css */
 .banner-container{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 32px;
    
@@ -192,7 +192,7 @@ font-weight: 400;
 /* banner-container css */
 /* habits-container css */
 .habits-container{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 100px;
 }
