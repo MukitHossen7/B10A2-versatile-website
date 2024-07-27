@@ -393,7 +393,8 @@ margin-bottom: 34px;
     width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    outline: none;
+    /* outline: none; */
+    border: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
@@ -410,7 +411,8 @@ margin-bottom: 34px;
     width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    outline: none;
+    /* outline: none; */
+    border: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
@@ -421,7 +423,8 @@ margin-bottom: 34px;
     width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    outline: none;
+    /* outline: none; */
+    border: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
